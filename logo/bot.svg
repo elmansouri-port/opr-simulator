@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24">
+  <g id="bot" transform="translate(0 1)">
+    <rect id="Frame" width="24" height="24" transform="translate(1 -1)" fill="rgba(180,248,196,0)"/>
+    <path id="Tracé_539" data-name="Tracé 539" d="M20,7V17H6L4,20V7H20m0-2H4A2,2,0,0,0,2,7V20a2,2,0,0,0,1.42,1.9A2,2,0,0,0,4,22a2,2,0,0,0,1.66-.89L7.07,19H20a2,2,0,0,0,2-2V7A2,2,0,0,0,20,5Z"/>
+    <path id="Tracé_540" data-name="Tracé 540" d="M22,10a2,2,0,0,1,0,4Z"/>
+    <path id="Tracé_541" data-name="Tracé 541" d="M2,14a2,2,0,0,1,0-4Z"/>
+    <circle id="Ellipse_22" data-name="Ellipse 22" cx="2" cy="2" r="2" transform="translate(7 10)"/>
+    <circle id="Ellipse_23" data-name="Ellipse 23" cx="2" cy="2" r="2" transform="translate(13 10)"/>
+    <circle id="Ellipse_24" data-name="Ellipse 24" cx="1.5" cy="1.5" r="1.5" transform="translate(10.5 1)"/>
+    <circle id="Ellipse_25" data-name="Ellipse 25" cx="1" cy="1" r="1" transform="translate(11 4)"/>
+  </g>
+</svg>

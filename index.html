@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>opr(calc-simulator)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="solution-pick">
+      <img
+        src="https://www.openrainbow.com/img/front/rainbow-square-connectors-teams.png"
+        class="solution-img active"
+        alt=""
+        data-solution="0"
+      />
+      <img
+        src="https://www.openrainbow.com/img/front/rainbow-square-connectors-teams.png"
+        class="solution-img"
+        alt=""
+        data-solution="1"
+      />
+      <img
+        src="https://www.openrainbow.com/img/front/rainbow-square-connectors-teams.png"
+        class="solution-img"
+        alt=""
+        data-solution="2"
+      />
+      <img
+        src="https://www.openrainbow.com/img/front/rainbow-square-connectors-teams.png"
+        class="solution-img"
+        alt=""
+        data-solution="3"
+      />
+    </div>
+
+    <div class="cont">
+      <div class="main-container">
+        <div class="solution-over">
+          <div class="pdt-card">
+            <div class="title">Premium Collaboration Suite</div>
+            <div class="image-price-container">
+              <img
+                src="https://www.openrainbow.com/img/front/rainbow-square-connectors-teams.png"
+                class="main-img"
+                alt=""
+              />
+              <div class="desktop-price-section">
+                <span class="desktop-price-label">Total Price</span>
+                <span class="desktop-price-value" id="desktopPrice"
+                  >100€/month</span
+                >
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                <b>Description:</b>
+                <span id="solutionDesc"
+                  >This is the description of the selected solution for the
+                  user.</span
+                >
+              </p>
+            </div>
+            <button class="place-btn">Confirm Selection</button>
+          </div>
+        </div>
+
+        <div class="solution-options">
+          <ul id="optionsList">
+            <li data-price="25">
+              <div class="option-info">
+                <span class="option-name"
+                  ><img src="logo/Call.svg" alt="" /> Telephony</span
+                >
+                <span class="option-price">+25€/month</span>
+              </div>
+              <label class="switch">
+                <input type="checkbox" class="option-toggle" />
+                <span class="slider"></span>
+              </label>
+            </li>
+            <li data-price="30">
+              <div class="option-info">
+                <span class="option-name"
+                  ><img src="logo/share.png" alt="" /> Cloud Collaboration</span
+                >
+                <span class="option-price">+30€/month</span>
+              </div>
+              <label class="switch">
+                <input type="checkbox" class="option-toggle" />
+                <span class="slider"></span>
+              </label>
+            </li>
+            <li data-price="40">
+              <div class="option-info">
+                <span class="option-name"
+                  ><img src="logo/hospit.svg" alt="" /> Hospitality Suite</span
+                >
+                <span class="option-price">+40€/month</span>
+              </div>
+              <label class="switch">
+                <input type="checkbox" class="option-toggle" />
+                <span class="slider"></span>
+              </label>
+            </li>
+            <li data-price="35">
+              <div class="option-info">
+                <span class="option-name"
+                  ><img src="logo/contacts.svg" alt="" /> Classroom Tools</span
+                >
+                <span class="option-price">+35€/month</span>
+              </div>
+              <label class="switch">
+                <input type="checkbox" class="option-toggle" />
+                <span class="slider"></span>
+              </label>
+            </li>
+            <li data-price="50">
+              <div class="option-info">
+                <span class="option-name"
+                  ><img src="logo/bot.svg" alt="" /> AI Assistant</span
+                >
+                <span class="option-price">+50€/month</span>
+              </div>
+              <label class="switch">
+                <input type="checkbox" class="option-toggle" />
+                <span class="slider"></span>
+              </label>
+            </li>
+            <li data-price="20">
+              <div class="option-info">
+                <span class="option-name"
+                  ><img src="logo/sort.svg" alt="" /> Live Transcription</span
+                >
+                <span class="option-price">+20€/month</span>
+              </div>
+              <label class="switch">
+                <input type="checkbox" class="option-toggle" />
+                <span class="slider"></span>
+              </label>
+            </li>
+            <li data-price="15">
+              <div class="option-info">
+                <span class="option-name"
+                  ><img src="logo/idea.svg" alt="" /> Smart AutoComplete</span
+                >
+                <span class="option-price">+15€/month</span>
+              </div>
+              <label class="switch">
+                <input type="checkbox" class="option-toggle" />
+                <span class="slider"></span>
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Sticky Footer -->
+    <div class="mobile-footer">
+      <div class="mobile-footer-content">
+        <div class="mobile-price">
+          <span class="mobile-price-label">Total</span>
+          <span class="mobile-price-value" id="mobilePrice">100€/month</span>
+        </div>
+        <button class="mobile-cta">Get My Solution</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
